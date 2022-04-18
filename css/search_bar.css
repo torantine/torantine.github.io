@@ -1,0 +1,35 @@
+.search-wrapper{
+    display: flex;
+    flex-direction: column; /* Makes elements stack on top of one another*/
+    gap: .25rem;
+}
+
+input {
+    font-size: 1rem; /* makes input text the same size as the other text on the site */
+}
+
+.user-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* As screen size changes, the amount of cards per line changes based on minmax */
+    gap: .25rem;
+    margin: 1rem;
+}
+
+.card {
+    border: 1px solid black;
+    background-color: white;
+    padding: .5rem;
+}
+
+.card > .header {
+    margin-bottom: .25rem;
+}
+
+.card > .body {
+    font-size: .8rem;
+    color: #777;
+}
+
+.hide {
+    display: none;
+}

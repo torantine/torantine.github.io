@@ -1,6 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/background_styles.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/search_bar.css">
+    <script src="../js/script.js" defer></script>
+    <title>Etched Interim</title>
+</head>
 <body>
-<a href="/topics/sample-recording-and-playback-with-web-audio-api/0.sample-recording-and-playback.html">Sample REcording</a>
+    <nav class="navbar">
+        <div class="brand-title">Etched Interim</div>
+        <div class="search-wrapper">
+            <label for="search">Search</label>
+            <input type="search" id="search" data-search>
+        </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../html/about.html">About</a></li>
+            <li><a href="../html/contact.html">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+    <div class="user-cards" data-user-cards-container></div> <!-- Populated by JS-->
+    <template data-user-template>
+        <div class="card">
+            <div class="header" data-header></div>
+            <div class="body" data-body></div>
+        </div>
+    </template>
 </body>
 </html>

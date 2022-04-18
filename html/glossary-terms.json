@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Flat",
+        "definition": "A musical symbol lowers a pitch by one half step.",
+        "topic": "Review: Notes On A Keyboard",
+        "topicLink": "<a href=\"https://dobrian.github.io/cmp/topics/basics-of-music-theory/1.the-notes-on-a-keyboard.html\">Review: Notes On A Keyboard</a>"
+    },
+    {
+        "name": "Interval",
+        "definition": "The difference in pitch between two sounds. This difference is a melodic interval if the two pitches sound successively and a harmonic interval if the pitches sound simultaneously.",
+        "topic": "Review: Scales And Intervals",
+        "topicLink": "<a href=\"https://dobrian.github.io/cmp/topics/basics-of-music-theory/2.scales-and-intervals.html\">Review: Scales And Intervals</a>"
+    },
+    {
+       "name": "Window",
+       "definition": "A type of a function that tracks amplitiude over time.",
+       "topic": "Builing A Granulator",
+       "topicLink": "<a href=\"https://dobrian.github.io/cmp/topics/sample-recording-and-playback-with-web-audio-api/2.building-a-granulator.html\">Builing A Granulator</a>"
+    },
+    {
+        "name": "Grain",
+        "definition": "A very short, windowed excerpt of a sound file.",
+        "topic": "Builing A Granulator",
+        "topicLink": "<a href=\"https://dobrian.github.io/cmp/topics/sample-recording-and-playback-with-web-audio-api/2.building-a-granulator.html\">Builing A Granulator</a>"
+    }
+]
