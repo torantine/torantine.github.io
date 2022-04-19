@@ -26,13 +26,13 @@
     {
        "name": "Window",
        "definition": "A type of a function that tracks amplitiude over time.",
-       "topic": "Builing A Granulator",
+       "topic": "Building A Granulator",
        "topicLink": "<a href=\"https://dobrian.github.io/cmp/topics/sample-recording-and-playback-with-web-audio-api/2.building-a-granulator.html\">Builing A Granulator</a>"
     },
     {
         "name": "Grain",
         "definition": "A very short, windowed excerpt of a sound file.",
-        "topic": "Builing A Granulator",
+        "topic": "Building A Granulator",
         "topicLink": "<a href=\"https://dobrian.github.io/cmp/topics/sample-recording-and-playback-with-web-audio-api/2.building-a-granulator.html\">Builing A Granulator</a>"
     }
 ]

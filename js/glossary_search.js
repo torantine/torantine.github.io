@@ -74,7 +74,7 @@ glossarySearchInput.addEventListener("input", (e) => {
       const topic = item.querySelector("[term-topic]")
       header.textContent = term.name
       body.textContent = term.definition
-      topic.innerHTML = "Topic: " + term.topicLink
+      lesson.innerHTML = "Lesson: " + term.topicLink
       glossaryExactMatch.append(item)
       glossaryExactMatchContainer.append(glossaryExactMatch)
     }
