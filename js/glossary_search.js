@@ -104,10 +104,10 @@ fetch("../json/glossary-terms.json")
       const item = glossaryTermTemplate.content.cloneNode(true).children[0]
       const header = item.querySelector("[term-header]")
       const body = item.querySelector("[term-body]")
-      const topic = item.querySelector("[term-topic]")
+      const lesson = item.querySelector("[term-lesson]")
       header.textContent = term.name
       body.textContent = term.definition
-      topic.innerHTML = "Topic: " + term.topicLink
+      lesson.innerHTML = "Lesson: " + term.topicLink
       glossaryTermsContainer.append(item)
       return { name : term.name, definition: term.definition, topic : term.topic, topicLink : term.topicLink, element : item}
     })
