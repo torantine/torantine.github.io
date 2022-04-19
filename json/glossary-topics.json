@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Basics of Music Theory",
+        "link": "https://dobrian.github.io/cmp/topics/basics-of-music-theory/0.basics-of-music-theory.html",
+        "lessons": [
+            "Review: The Notes on a Keyboard", 
+            "Review: Scales and Intervals", 
+            "Review: Fundamentals of Rhythm", 
+            "Review: Time Signatures and Tempo",
+            "Representing Pitch in the Computer", 
+            "Representing Rhythm in the Computer"
+        ],
+        "lessonLinks": [
+            "https://dobrian.github.io/cmp/topics/basics-of-music-theory/1.the-notes-on-a-keyboard.html", 
+            "https://dobrian.github.io/cmp/topics/basics-of-music-theory/2.scales-and-intervals.html", 
+            "https://dobrian.github.io/cmp/topics/basics-of-music-theory/3.fundamentals-of-rhythm.html", 
+            "https://dobrian.github.io/cmp/topics/basics-of-music-theory/4.time-signatures-and-tempo.html", 
+            "https://dobrian.github.io/cmp/topics/basics-of-music-theory/5.representing-pitch.html", 
+            "https://dobrian.github.io/cmp/topics/basics-of-music-theory/6.representing-rhythm.html"
+        ]
+    },
+    {
+        "name": "Basics of UI Design for Music",
+        "link": "https://dobrian.github.io/cmp/topics/basics-of-ui-for-music/0.index.html",
+        "lessons": [
+            "Basics of UI for Music",
+            "Example UIs",
+            "UI with Max"],
+        "lessonLinks": [
+            "https://dobrian.github.io/cmp/topics/basics-of-ui-for-music/1.Basics-of-UI-for-Music.html",
+            "https://dobrian.github.io/cmp/topics/basics-of-ui-for-music/2.Example-UIs.html",
+            "https://dobrian.github.io/cmp/topics/basics-of-ui-for-music/3.UI-with-Max.html"
+        ]
+    }
+]
+

@@ -2,7 +2,19 @@
     {
         "name": "Flat",
         "definition": "A musical symbol lowers a pitch by one half step.",
-        "topic": "Review: Notes On A Keyboard",
+        "topic": "Review: The Notes On A Keyboard",
+        "topicLink": "<a href=\"https://dobrian.github.io/cmp/topics/basics-of-music-theory/1.the-notes-on-a-keyboard.html\">Review: Notes On A Keyboard</a>"
+    },
+    {
+        "name": "Middle C",
+        "definition": "The fourth C key from the left on a standard 88-key piano keyboard. Designated as C4 in scientific pitch notation and is note number 60 in MIDI notation.",
+        "topic": "Review: The Notes On A Keyboard",
+        "topicLink": "<a href=\"https://dobrian.github.io/cmp/topics/basics-of-music-theory/1.the-notes-on-a-keyboard.html\">Review: Notes On A Keyboard</a>"
+    },
+    {
+        "name": "Octave",
+        "definition": "The interval between a musical pitch and another with double or half its frequency. These notes will have the same letter name and pitch class.",
+        "topic": "Review: The Notes On A Keyboard",
         "topicLink": "<a href=\"https://dobrian.github.io/cmp/topics/basics-of-music-theory/1.the-notes-on-a-keyboard.html\">Review: Notes On A Keyboard</a>"
     },
     {
