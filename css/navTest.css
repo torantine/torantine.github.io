@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
+
+:root {
+    --nav-bg-color: rgba(85, 214, 170, .85)
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #222;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+
+.content {
+    height: 200vh;
+    background-image: url(//unsplash.it/1000/1000);
+    background-color: #333;
+    background-blend-mode: multiply;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+/* navigation styles start here */
+
+header {
+    background: var(--nav-bg-color); /* uses the background variable we defined at the top */
+    text-align: center;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+  }
+
+.logo {
+    margin: 0 auto;
+}
+
+.nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 1em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-toggle-label span,
+.nav-toggle-label::before,
+.nav-toggle-label::after {
+    display: block;
+    background: white;
+    height: 2px;
+    width: 2em;
+    border-radius: 2px;
+
+}
+
+.nav-toggle-label::before,
+.nav-toggle-label::after {
+    content: '';
+    position: absolute;
+}
+
+.nav-toggle-label::before {
+    bottom: 15px;
+}
+
+.nav-toggle-label::after {
+    top: 15px;
+}
+
+nav {
+    position: absolute; /*makes the position of nav relative to the header */
+    text-align: left;
+    top: 100%; /* positions the top of the list 100% of the header down from the top of the page */
+    left: 0;
+    background: var(--nav-bg-color);
+    width: 100%;
+    display: none;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; /* gets rid of bullet points */
+}
+
+nav li {
+    margin-bottom: 1em;
+    margin-left: 1em;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+.nav-toggle:checked ~ nav { /* the ~ looks for any preceding sibling */
+    display: block; /* !!! How does this work??? */
+} 
